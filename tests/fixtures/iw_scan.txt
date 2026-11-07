@@ -1,0 +1,64 @@
+BSS a0:40:a0:11:22:33(on wlan1) -- associated
+	last seen: 1234.567s [boottime]
+	TSF: 123456789 usec (0d, 00:02:03)
+	freq: 2437.0
+	beacon interval: 100 TUs
+	capability: ESS Privacy ShortSlotTime RadioMeasure (0x1411)
+	signal: -52.00 dBm
+	last seen: 40 ms ago
+	Information elements from Probe Response frame:
+	SSID: HomeNet
+	Supported rates: 1.0* 2.0* 5.5* 11.0* 6.0 9.0 12.0 18.0 
+	DS Parameter set: channel 6
+	BSS Load:
+		 * station count: 7
+		 * channel utilisation: 51/255
+		 * available admission capacity: 0 [*32us]
+	RSN:	 * Version: 1
+		 * Group cipher: CCMP
+		 * Pairwise ciphers: CCMP
+		 * Authentication suites: PSK SAE
+		 * Capabilities: 1-PTKSA-RC 1-GTKSA-RC MFP-capable (0x0080)
+	HT operation:
+		 * primary channel: 6
+		 * secondary channel offset: no secondary
+		 * STA channel width: 20 MHz
+BSS a0:40:a0:11:22:34(on wlan1)
+	freq: 5180
+	capability: ESS Privacy (0x0011)
+	signal: -61.00 dBm
+	SSID: HomeNet
+	RSN:	 * Version: 1
+		 * Authentication suites: PSK
+	HT operation:
+		 * primary channel: 36
+		 * secondary channel offset: above
+		 * STA channel width: any
+	VHT operation:
+		 * channel width: 1 (80 MHz)
+		 * center freq segment 1: 42
+BSS 10:da:43:aa:bb:cc(on wlan1)
+	freq: 2412
+	capability: ESS Privacy (0x0411)
+	signal: -70.00 dBm
+	SSID: Neighbor\xe2\x80\x99s WiFi
+	DS Parameter set: channel 1
+	WPA:	 * Version: 1
+		 * Group cipher: TKIP
+		 * Pairwise ciphers: TKIP
+		 * Authentication suites: PSK
+BSS 22:33:44:55:66:77(on wlan1)
+	freq: 2432
+	capability: ESS (0x0401)
+	signal: -78.00 dBm
+	SSID: \x00\x00\x00\x00
+	DS Parameter set: channel 5
+BSS 66:77:88:99:aa:bb(on wlan1)
+	freq: 2462
+	capability: ESS Privacy (0x0411)
+	signal: -66.50 dBm
+	SSID: CorpNet
+	DS Parameter set: channel 11
+	RSN:	 * Version: 1
+		 * Authentication suites: IEEE 802.1X
+	RSN:	 * Version: 1

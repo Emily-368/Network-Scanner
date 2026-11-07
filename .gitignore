@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+*.db
+survey.csv
+report.html
+*.egg-info/
+.venv/
